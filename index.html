@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The-Good-Travel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -24,35 +25,37 @@
                     <input type="text" id="placename"><br>
                     <label> Trip place</label><br>
                     <select name="" id="selectoption">
-                        <option value=""> HAWAII </option>
-                        <option value="">LONDON</option>
-                        <option value=""> PARIS </option>
-                        <option value="">ITALY </option>
-                        <option value="">SLOVAKIA</option>
-                        <option value="">MALAYSIA</option>
+                        <option value="HAWAII"> HAWAII </option>
+                        <option value="LONDON">LONDON</option>
+                        <option value="PARIS"> PARIS </option>
+                        <option value="ITALY">ITALY </option>
+                        <option value="SLOVAKIA">SLOVAKIA</option>
+                        <option value="MALAYSIA">MALAYSIA</option>
                     </select><br>
                     <label for="" id="typetransport">Type Of Transport.</label><br>
                     <select name="" id="typeoftransport">
-                        <option value="">Car</option>
-                        <option value="">Trian</option>
-                        <option value="">Flight</option>
-                        <option value="">Cruise</option>
+                        <option value="Car">Car</option>
+                        <option value="Trian">Trian</option>
+                        <option value="Flight">Flight</option>
+                        <option value="Cruise">Cruise</option>
                     </select><br>
                     <button id="submit">Submit</button>
 
                 </fieldset>
             </form>
         </section>
-        <section>
-            <ul id="viewallplace">
-
-            </ul>
+        <section id="viewallplace right-col">
+            <!-- <div >
+                <button> clear</button>
+                <img src="img/places/HAWAII.png" alt="" class="images">
+                <p> Place Name: <br> Trip Place: <br> Tupe Of Transport: </p>
+            </div> -->
         </section>
     </main>
     <footer>
-
+        &COPY;
     </footer>
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#imglogo{
+width: 80px;
+height: 80px;
+display: inline-block;
+}
+body{
+    background-image: url("../img/background.png");
+    width: 100%;
+    font-family: 'Righteous', cursive;
+}
+header{
+    background-color:  rgba(202, 240, 251, 255);
+    height: 10%;
+    
+
+}
+h1{
+    text-align: center;
+}
+
+.images{
+margin: 20px;
+    display:inline ;
+    width: 50px;
+    height: 50px;
+}
+p{
+    display: inline-block;
+
+}
+footer{
+    background-color: #f376a288;
+}
