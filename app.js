@@ -11,6 +11,10 @@ function renderTravel() {
     clearlist();
     showListofPlace();
 }
+let bartOfform = document.getElementById('alldata');
+let buttoncller = document.createElement('button');
+buttoncller.innerHTML=('clear');
+bartOfform.appendChild(buttoncller);
 
 let submit = document.getElementById('submit')
 submit.addEventListener('click', addNewplaces);

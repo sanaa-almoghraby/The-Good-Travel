@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 #imglogo{
-width: 80px;
-height: 80px;
-display: inline-block;
+width: 90px;
+height: 90px;
+display: inline;
+margin-top: -4%;
 }
 body{
     background-image: url("../img/background.png");
@@ -12,16 +13,54 @@ body{
 }
 header{
     background-color:  rgba(202, 240, 251, 255);
-    height: 10%;
+    height: 5%;
     
 
 }
 h1{
     text-align: center;
-}
+    padding-top: 19px;
+    font-size: 30px;
+    color: white;
 
+}
+#lift-col{
+    border: 2px;
+    border-radius: 8px;
+    background-color:  #5d4b7696;
+    margin: 50px;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+
+}
+#alldata{
+    margin: 30px;
+    color: white;
+}
+select{
+    margin: 15px;
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+
+}
+input{
+    margin: 15px;
+    border-radius: 5px;
+
+}
+button{
+    margin: 10px;
+    background-color: #2e1d4696;
+    border-radius: 5px;
+    width: 85%;
+    color: white;
+    height: 30px;
+
+}
 .images{
-margin: 20px;
+    margin: 20px;       
     display:inline ;
     width: 50px;
     height: 50px;
@@ -30,6 +69,7 @@ p{
     display: inline-block;
 
 }
+
 footer{
     background-color: #f376a288;
 }
