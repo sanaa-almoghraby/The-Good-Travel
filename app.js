@@ -8,7 +8,7 @@ function NewPlace(pname, tplace, toftransport) {
 }
 function renderTravel() {
     getFromlocal();
-    clearlist();
+    // clearlist();
     showListofPlace();
 }
 let bartOfform = document.getElementById('alldata');
